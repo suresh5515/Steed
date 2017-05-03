@@ -5,7 +5,7 @@ if($('#cp-clients-slider').length){$('#cp-clients-slider').owlCarousel({loop:tru
 if($('#cp-gallery-slider').length){$('#cp-gallery-slider').owlCarousel({loop:true,dots:false,nav:false,navText:'',items:4,smartSpeed:2000,padding:0,margin:12,autoplay:true,autoWidth:true,responsiveClass:true,responsive:{0:{items:1,autoWidth:false,},640:{items:2,autoWidth:false,},768:{items:2,},992:{items:4,},1199:{items:4,}}});}
 if($('#cp-booking-slider').length){$('#cp-booking-slider').owlCarousel({loop:true,dots:false,nav:true,navText:'',items:4,smartSpeed:1000,padding:0,margin:30,responsiveClass:true,responsive:{0:{items:1,},768:{items:2,},992:{items:3,},1199:{items:4,}}});}
 if($('#cp-product-slider2').length){$('#cp-product-slider2').owlCarousel({loop:true,dots:false,nav:true,navText:'',items:4,smartSpeed:1000,padding:0,margin:30,responsiveClass:true,responsive:{0:{items:1,},768:{items:2,},992:{items:3,},1199:{items:4,}}});}
-if($('#cp-testimonial-slider').length){$('#cp-testimonial-slider').owlCarousel({loop:true,dots:true,nav:false,navText:'',items:1,autoplay:false,smartSpeed:1500,});}
+if($('#cp-testimonial-slider').length){$('#cp-testimonial-slider').owlCarousel({loop:true,dots:true,nav:false,navText:'',items:1,autoplay:true,smartSpeed:1500,});}
 if($('#cp-blog-slider').length){$('#cp-blog-slider').owlCarousel({loop:true,dots:false,nav:false,navText:'',items:1,autoplay:false,smartSpeed:1500,});}
 if($('#cp-quotate-slider').length){$('#cp-quotate-slider').owlCarousel({loop:true,dots:false,nav:false,navText:'',items:1,autoplay:true,animate:'fadeIn',smartSpeed:2000,});}
 if($('#widget-slider').length){$('#widget-slider').owlCarousel({loop:true,dots:true,nav:false,navText:'',items:1,autoplay:false,smartSpeed:2000,});}

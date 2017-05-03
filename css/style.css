@@ -595,9 +595,9 @@ ol ol {
 .cp_side-navigation .dropdown-menu>li:last-child {
     padding-bottom: 0;
 }
-.cp_side-navigation .dropdown-menu>li:last-child {
+/*.cp_side-navigation .dropdown-menu>li:last-child {
     border-bottom: none;
-}
+}*/
 .cp_side-navigation .dropdown-menu li a {
     padding: 0;
 }
@@ -1301,6 +1301,10 @@ ol ol {
     margin: 0 10px 0 0;
     position: relative;
     overflow: hidden;
+}
+.about-pager .cp-pager-outer img {
+width:100%;
+height:100%;
 }
 .cp-pager-outer .cp-caption {
     position: absolute;
@@ -3537,7 +3541,7 @@ ol ol {
     margin-bottom: 20px;
 }
 .cp-signature {
-    font-family: 'Mrs Saint Delafield', cursive;
+    /*font-family: 'Mrs Saint Delafield', cursive;*/
     font-size: 72px;
     line-height: 70px;
     font-weight: 400;
@@ -3621,6 +3625,7 @@ ol ol {
  width: 100%;
  padding: 60px 0 20px 0;
  background-color: #fff;
+ border:1px #ccc solid;
  height: 220px;
  margin-bottom: 25px;
 }
@@ -5396,3 +5401,82 @@ ul li,
     font-size: 0;
     height: 0;
 }
+/*Responsive menu css*/
+.cp-right-nav{
+	display:none;
+}
+
+@media screen and (max-width:1024px){
+.cp-right-nav{
+	display:block;
+}
+.cp-nav-holder .navbar-default {
+    display: none;
+}
+.cp_side-navigation p {
+  text-align: center;
+}
+.cp_side-navigation p span {
+  padding-left:10px;
+}
+[class^="icon-"], [class*=" icon-"] {
+ font-size: 30px;
+}
+.cp-header {
+ background-color: #000 !important;
+}
+}
+
+@media screen and (max-width:768px){
+.cp-contact-listed {
+    margin-bottom:0px;
+   margin-top:0px;
+ }
+.cp-contact-listed>li {
+     width: 100%;
+    margin: 15px 20px;
+   
+} 
+.cp-address-box {
+   padding: 15px 0;
+}
+.cp-address-box:before {
+   left: 100px;
+   bottom: 0px;
+   
+}
+}
+@media (max-width:568px){
+.sponsers-list .sponsers-list-left {
+   display: inherit;
+  width: 100%;
+}	
+.sponsers-list-right {
+    display: inherit;
+    width: auto;
+}	
+.sponsers-list li p {
+     width: 100% !important;
+}	
+}
+@media (max-width: 480px){
+.cp-address-box::before {
+    left: 0;
+}
+.cp-contact-listed {
+     padding: 5px;
+}
+}
+
+
+@media (max-width:320px){
+	.cp-address-box::before {
+    left: -17px;
+	bottom: 40px;
+}
+}
+
+
+
+
+

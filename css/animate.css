@@ -122,6 +122,10 @@
   transform-origin: top center;
   -webkit-animation-name: swing;
   animation-name: swing;
+  animation-play-state: paused;
+}
+.swing:hover {
+  animation-play-state: running;
 }
 
 @-webkit-keyframes tada {
@@ -3050,3 +3054,4 @@
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+.thanks-animate{-webkit-animation:wobble 49s infinite;animation:wobble 49s infinite;}
